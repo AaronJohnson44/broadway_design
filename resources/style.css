@@ -1,19 +1,57 @@
 html{
-  text-align: center;
   font-family: Helvetica;
+  text-align: center;
 }
 
 h1{
+  font-family: Helvetica;
   font-size: 70px;
   font-weight: bold;
   color: white;
 }
 
+h2{
+  font-family: Helvetica;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+h3{
+  font-family: Helvetica;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+h1,
+.background{
+  font-family: Helvetica;
+  font-weight: bold;
+  background-image: url(../resources/images/building.png);
+}
+
+.body{
+  font-size: 14px;
+}
+
 .link{
+  font-family: Helvetica;
   font-size: 18px;
+
+}
+.top{
+  font-family: Helvetica;
+  font-size: 70px;
+
+}
+
+.color{
   color: white;
 }
 
-.title{
-  background-image: url(../resources/images/building.png);
+.bottom,
+.background_color{
+  font-family: Helvetica;
+  text-align: left;
+  font-size: 11px;
+  background-color: dimgray;
 }
