@@ -3,52 +3,58 @@ html {
   text-align: center;
 }
 
-h1 {
-  font-family: Helvetica;
-  font-size: 70px;
-  font-weight: bold;
-  color: white;
+.background {
+  background-image: url(../resources/images/building.png);
+  background-size: cover;
+  background-position: center;
+
 }
 
-h2 {
-  font-family: Helvetica;
-  font-size: 32px;
-  font-weight: bold;
+h1 {
+  font-size: 70px;
 }
 
 h3 {
-  font-family: Helvetica;
   font-size: 23px;
-  font-weight: bold;
 }
 
-h1, .background {
-  font-family: Helvetica;
-  font-weight: bold;
-  background-image: url(../resources/images/building.png);
-}
-
-.body {
-  font-size: 14px;
-}
-
-.link {
-  font-family: Helvetica;
+nav li {
   font-size: 18px;
 }
 
-.top {
-  font-family: Helvetica;
-  font-size: 70px;
+ul {
+  list-style-type: none;
 }
 
-.color {
+p {
+  font-size: 14px;
+}
+
+.white, nav a, div a {
   color: white;
 }
 
-.bottom, .background_color {
-  font-family: Helvetica;
+.bold {
+  font-weight: bold;
+}
+
+.process {
+  font-size: 32px;
+}
+
+.gray {
   text-align: left;
-  font-size: 11px;
   background-color: dimgray;
+}
+
+.size {
+  font-size: 11px;
+}
+
+.gray {
+  background-color: dimgray;
+}
+
+.broadway {
+  font-size: 11px;
 }
